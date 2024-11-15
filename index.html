@@ -1,0 +1,158 @@
+index.html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetas Dulces</title>
+    <style>
+        /* Estilos CSS */
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-color: #ffe4e1;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #ff69b4;
+            text-align: center;
+        }
+
+        .navbar table {
+            width: 100%;
+            text-align: center;
+            background-color: #ffb6c1;
+            border-spacing: 0;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: #333;
+            padding: 10px;
+        }
+
+        .navbar td {
+            padding: 10px;
+        }
+
+        .center-image {
+            width: 15%;
+            display: block;
+            margin: 20px auto;
+        }
+
+        .left-image {
+            width: 15%;
+            float: left;
+            margin: 10px;
+        }
+
+        .right-image {
+            width: 20%;
+            float: right;
+            margin: 10px;
+        }
+
+        table {
+            margin: 20px 0;
+            width: 50%;
+            border-collapse: collapse;
+        }
+
+        table th, table td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        h3 {
+            margin-top: 40px;
+            color: #ff69b4;
+        }
+
+        /* Segundo color de fondo para una sección */
+        .section-alternativa {
+            background-color: #f0e68c;
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Título -->
+    <h1>Mis Recetas Dulces</h1>
+
+    <!-- Índice horizontal -->
+    <div class="navbar">
+        <table>
+            <tr>
+                <td><a href="#galletas">Galletas de Chocolate</a></td>
+                <td><a href="#pastel">Pastel de Fresa</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Receta 1 -->
+    <section id="galletas" class="section-alternativa">
+        <h2>Galletas de Chocolate</h2>
+        <img src="https://cdn7.kiwilimon.com/recetaimagen/3329/640x640/38990.jpg.webp" alt="Galletas" class="center-image">
+        <p>Estas galletas son super fáciles de hacer y deliciosas para compartir con amigos.</p>
+        <ul>
+            <li>Harina</li>
+            <li>Azúcar</li>
+            <li>Chispas de chocolate</li>
+            <li>Mantequilla</li>
+        </ul>
+        <ol>
+            <li>Mezcla todos los ingredientes.</li>
+            <li>Forma bolitas y colócalas en la bandeja.</li>
+            <li>Hornea a 180°C durante 12 minutos.</li>
+        </ol>
+    </section>
+
+    <!-- Receta 2 -->
+    <section id="pastel">
+        <h2>Pastel de Fresa</h2>
+        <p>Un pastel muy suave y esponjoso con un toque de fresas.</p>
+        <img src="https://img.freepik.com/fotos-premium/foto-pastel-blanco-mono-encima_861949-2613.jpg" alt="Pastel" class="left-image">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq9KUUjROXdp66TAySh1s8dfiELRJPyXmPBVHPrGTG1C3fMS4K0jO5bbnJu4T0Aiq_X6E&usqp=CAU" alt="Decoración del pastel" class="right-image">
+    </section>
+
+    <!-- Tabla de ingredientes -->
+    <h3>Tabla de ingredientes para el pastel</h3>
+    <table border="1">
+        <tr>
+            <th>Ingrediente</th>
+            <th>Cantidad</th>
+        </tr>
+        <tr>
+            <td>Harina</td>
+            <td>250g</td>
+        </tr>
+        <tr>
+            <td>Mantequilla</td>
+            <td>100g</td>
+        </tr>
+    </table>
+
+    <h3>Tabla sin bordes</h3>
+    <table>
+        <tr>
+            <td>Fresas</td>
+            <td>Para decorar</td>
+        </tr>
+    </table>
+
+    <!-- GIF animado -->
+    <h3>¡Cocinar es divertido!</h3>
+    <img src="https://i.gifer.com/C9Sa.gif" alt="Gif de cocina">
+
+</body>
+</html>
